@@ -105,3 +105,13 @@ def count_lines(file):
     file.seek(0)
 
     return lines
+
+
+def main():
+    input_file = 'numbers.txt'
+
+    merge_sort(input_file)
+
+
+if __name__ == '__main__':
+    main()
